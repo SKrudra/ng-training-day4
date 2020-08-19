@@ -1,0 +1,12 @@
+<p>users works!</p>
+Id: {{user.id}} <br>
+Name: {{user.name}} <br>
+
+<!-- pipe -->
+
+<ul>
+    <li *ngFor="let user of users">{{user.id + ' ' + user.name + ' ' + user.email}}</li>
+</ul>
+
+
+
